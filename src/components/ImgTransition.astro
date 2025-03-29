@@ -1,0 +1,21 @@
+---
+const { img1, img2, img3 } = Astro.props;
+---
+
+<div class="grid grid-cols-2 grid-rows-2 my-10 gap-8 items-center">
+  <img
+    src={img1}
+    alt="Imagen 1"
+    class="object-cover row-span-2 col-start-1 w-[30vh] h-[60vh] transition duration-500 hover:shadow-2xl hover:shadow-gris-aura"
+  />
+  <img
+    src={img2}
+    alt="Imagen 2"
+    class="object-cover col-start-2 w-[30vh] h-[30vh] transition duration-500 hover:shadow-2xl hover:shadow-gris-aura"
+  />
+  <img
+    src={img3}
+    alt="Imagen 3"
+    class="object-cover col-span-2 row-start-2 col-start-2 w-[30vh] h-[30vh] transition duration-500 hover:shadow-2xl hover:shadow-gris-aura"
+  />
+</div>

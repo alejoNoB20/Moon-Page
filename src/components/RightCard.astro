@@ -1,0 +1,34 @@
+---
+const { img, blurText } = Astro.props;
+---
+
+<div
+  class="flex flex-row m-6 max-w-full h-[40vh] gap-x-10 items-center justify-center"
+>
+  <div
+    class="relative flex items-center justify-center text-center min-h-[40vh] w-[40vh]"
+  >
+    <div
+      class="absolute inset-0 bg-cover bg-center"
+      style={`background-image: url('${img}');`}
+    >
+    </div>
+    <div
+      class="absolute z-10 flex items-center justify-center h-full w-full opacity-0 hover:opacity-90 transition-opacity duration-500 bg-aura hover:shadow-2xl hover:shadow-gris-oscuro"
+    >
+      <h3 class="font-poppins italic text-lg text-onix">
+        {blurText}
+      </h3>
+    </div>
+  </div>
+  <hr
+    class="h-full w-px border-none bg-gradient-to-t from-transparent via-aura to-transparent opacity-40 dark:via-gris-oscuro"
+  />
+  <h3 class="font-cormorantGaramond text-gris-oscuro text-lg max-w-[90vh]">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a finibus
+    purus. Praesent tempus enim sed neque sagittis, a cursus ipsum luctus.
+    Phasellus nec blandit magna. Etiam nec volutpat nulla, et fringilla tortor.
+    Vestibulum fringilla vitae nisi a elementum. Orci varius natoque penatibus
+    et magnis dis parturient montes, nascetur ridiculus mus.
+  </h3>
+</div>

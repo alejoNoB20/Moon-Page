@@ -1,0 +1,70 @@
+---
+
+---
+
+<h1 class="font-cormorantGaramond text-onix text-3xl my-4 text-center">
+  Contáctame:
+</h1>
+<section
+  class="border-2 border-aura bg-gris-claro shadow-2xl shadow-onix p-8 justify-center items-center rounded-2xl"
+>
+  <form class="flex flex-col gap-4 max-w-screen justify-center">
+    <div class="flex flex-row gap-x-4">
+      <div class="flex flex-col gap-y-2">
+        <label for="name" class="font-cormorantGaramond text-onix text-3xl"
+          >Nombre:</label
+        >
+        <input
+          type="text"
+          name="name"
+          id="name"
+          class="p-2 max-w-screen border-2 border-aura bg-gris-claro rounded-2xl text-lg font-cormorantGaramond text-onix focus:bg-gris-oscuro focus:text-aura transition duration-200 w-full"
+          required
+          placeholder="Ingresa tu nombre:"
+        />
+      </div>
+      <div class="flex flex-col gap-y-2">
+        <label for="email" class="font-cormorantGaramond text-onix text-3xl"
+          >Correo Electrónico:</label
+        >
+        <input
+          type="email"
+          name="email"
+          id="email"
+          class="p-2 border-2 border-aura bg-gris-claro rounded-2xl text-lg font-cormorantGaramond text-onix focus:bg-gris-oscuro focus:text-aura transition duration-200 w-full"
+          required
+          placeholder="Ingresa tu correo:"
+        />
+      </div>
+    </div>
+    <div class="flex-col gap-y-2">
+      <label for="subject" class="font-cormorantGaramond text-onix text-3xl"
+        >Asunto:</label
+      >
+      <input
+        type="text"
+        name="subject"
+        id="subject"
+        class="p-2 border-2 border-aura bg-gris-claro rounded-2xl text-lg font-cormorantGaramond text-onix focus:bg-gris-oscuro focus:text-aura transition duration-200 w-full"
+        required
+        placeholder="Ingresa el asunto:"
+      />
+    </div>
+    <div class="flex-col gap-y-2">
+      <label for="message" class="font-cormorantGaramond text-onix text-3xl"
+        >Mensaje:</label
+      >
+      <textarea
+        name="message"
+        id="message"
+        class="p-2 border-2 border-aura bg-gris-claro rounded-2xl text-lg font-cormorantGaramond text-onix focus:bg-gris-oscuro focus:text-aura transition duration-200 w-full h-[20vh]"
+        required
+        placeholder="Ingresa el mensaje:"></textarea>
+    </div>
+    <button
+      type="submit"
+      class="p-2 w-full rounded-2xl font-cormorantGaramond border-2 border-aura bg-gris-claro text-lg text-onix focus:bg-onix focus:text-aura transition duration-200 hover:bg-piedra"
+      >Enviar</button
+    >
+  </form>
+</section>
