@@ -1,8 +1,5 @@
 ---
-const { img, blurText } = Astro.props;
-const handleClick = () => {
-  console.log("hola");
-};
+const { img, blurText, page } = Astro.props;
 ---
 
 <div
@@ -18,19 +15,20 @@ const handleClick = () => {
   <hr
     class="h-full w-px border-none bg-gradient-to-t from-transparent via-aura to-transparent opacity-40 dark:via-gris-oscuro"
   />
-  <div
-    class="relative flex items-center justify-center text-center min-h-[40vh] w-[40vh]"
-  >
+  <a href={`/${page}`}>
     <div
-      class="absolute inset-0 bg-cover bg-center"
-      style={`background-image: url('${img}');`}
+      class="relative flex items-center justify-center text-center min-h-[40vh] w-[40vh]"
     >
+      <div
+        class="absolute inset-0 bg-cover bg-center"
+        style={`background-image: url('${img}');`}
+      >
+      </div>
+      <div
+        class="absolute z-10 flex items-center justify-center h-full w-full opacity-0 hover:opacity-90 transition-opacity duration-500 bg-aura hover:shadow-2xl hover:shadow-gris-oscuro"
+      >
+        <h3 class="font-poppins italic text-lg text-onix">{blurText}</h3>
+      </div>
     </div>
-    <div
-      class="absolute z-10 flex items-center justify-center h-full w-full opacity-0 hover:opacity-90 transition-opacity duration-500 bg-aura hover:shadow-2xl hover:shadow-gris-oscuro"
-      onclick="{handleClick}"
-    >
-      <h3 class="font-poppins italic text-lg text-onix">{blurText}</h3>
-    </div>
-  </div>
+  </a>
 </div>

@@ -1,0 +1,28 @@
+---
+import json from "../content/groups.json";
+import RightCard from "./RightCard.astro";
+import LeftCard from "./LeftCard.astro";
+---
+
+<section>
+  {
+    json.groups.map((group, index) => {
+      if (index % 2 === 0) {
+        return (
+          <RightCard
+            img={group.img}
+            blurText={group.description}
+            page={group.id}
+          />
+        );
+      }
+      return (
+        <LeftCard
+          img={group.img}
+          blurText={group.description}
+          page={group.id}
+        />
+      );
+    })
+  }
+</section>

@@ -1,45 +1,48 @@
 ---
-
+import Divider from "./Divider.astro";
 ---
 
+<Divider />
 <h1 class="font-cormorantGaramond text-onix text-3xl my-4 text-center">
   Contáctame:
 </h1>
 <section
-  class="border-2 border-aura bg-gris-claro shadow-2xl shadow-onix p-8 justify-center items-center rounded-2xl"
+  class="border-2 border-aura bg-gris-claro shadow-2xl shadow-onix p-8 justify-center items-center rounded-2xl mx-[50vh]"
 >
   <form class="flex flex-col gap-4 max-w-screen justify-center">
+    <!-- NOMBRE Y CORREO -->
     <div class="flex flex-row gap-x-4">
-      <div class="flex flex-col gap-y-2">
+      <div class="flex flex-col gap-y-2 w-full">
         <label for="name" class="font-cormorantGaramond text-onix text-3xl"
-          >Nombre:</label
+          >Nombre: *</label
         >
         <input
           type="text"
           name="name"
           id="name"
-          class="p-2 max-w-screen border-2 border-aura bg-gris-claro rounded-2xl text-lg font-cormorantGaramond text-onix focus:bg-gris-oscuro focus:text-aura transition duration-200 w-full"
+          class="p-2 border-2 border-aura bg-gris-claro rounded-2xl text-lg font-cormorantGaramond text-onix focus:bg-gris-oscuro focus:text-aura transition duration-200"
           required
           placeholder="Ingresa tu nombre:"
         />
       </div>
-      <div class="flex flex-col gap-y-2">
+      <div class="flex flex-col gap-y-2 w-full">
         <label for="email" class="font-cormorantGaramond text-onix text-3xl"
-          >Correo Electrónico:</label
+          >Correo Electrónico: *</label
         >
         <input
           type="email"
           name="email"
           id="email"
-          class="p-2 border-2 border-aura bg-gris-claro rounded-2xl text-lg font-cormorantGaramond text-onix focus:bg-gris-oscuro focus:text-aura transition duration-200 w-full"
+          class="p-2 border-2 border-aura bg-gris-claro rounded-2xl text-lg font-cormorantGaramond text-onix focus:bg-gris-oscuro focus:text-aura transition duration-200"
           required
           placeholder="Ingresa tu correo:"
         />
       </div>
     </div>
+    <!-- ASUNTO -->
     <div class="flex-col gap-y-2">
       <label for="subject" class="font-cormorantGaramond text-onix text-3xl"
-        >Asunto:</label
+        >Asunto: *</label
       >
       <input
         type="text"
@@ -50,9 +53,10 @@
         placeholder="Ingresa el asunto:"
       />
     </div>
+    <!-- MENSAJE -->
     <div class="flex-col gap-y-2">
       <label for="message" class="font-cormorantGaramond text-onix text-3xl"
-        >Mensaje:</label
+        >Mensaje: *</label
       >
       <textarea
         name="message"

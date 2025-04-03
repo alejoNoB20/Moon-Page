@@ -1,0 +1,26 @@
+---
+import json from "../content/groups.json";
+import Layout from "../layouts/Layout.astro";
+import Products from "../components/Products.astro";
+const { id } = Astro.params;
+const currentGroup = json.groups[id];
+
+export const getStaticPaths = () => {
+  const list = json.groups.map((group) => {
+    return { params: { id: group.id } };
+  });
+  return list;
+};
+---
+
+<Layout>
+  <h1 class="font-cormorantGaramond text-6xl my-5 text-onix">
+    {currentGroup.name}
+  </h1>
+  <img
+    src={currentGroup.img}
+    alt={currentGroup.name}
+    class="object-cover max-h-[45vh] max-w-[45vh] rounded-2xl"
+  />
+  <Products products={currentGroup.products} />
+</Layout>

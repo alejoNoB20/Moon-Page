@@ -2,53 +2,40 @@
 import Layout from "../layouts/Layout.astro";
 import Banner from "../components/Banner.astro";
 import ImgTransition from "../components/ImgTransition.astro";
-import RightCard from "../components/RightCard.astro";
-import LeftCard from "../components/LeftCard.astro";
+import Cards from "../components/Cards.astro";
 import Divider from "../components/Divider.astro";
-import ContactForm from "../components/ContactForm.astro";
 ---
 
 <Layout>
   <!-- MAIN -->
-  <main class="flex flex-col content-center justify-center items-center">
-    <Banner />
-    <div
-      class="flex text-center justify-center content-center z-10 bg-aura w-screen py-5"
-    >
-      <h3 class="text-onix text-2xl font-cormorantGaramond mx-10">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a tortor
-        quis justo tempus ultrices vel in turpis. Integer sed vehicula lacus. In
-        aliquet, tellus ut porta dapibus, ante augue molestie sapien, eu varius
-        lorem dui ut dui.
-      </h3>
-    </div>
-    <ImgTransition
-      img1="https://res.cloudinary.com/dz2df15nx/image/upload/v1743213669/2556f91f-84e1-4d30-ab8c-0cc2a482ee13.png"
-      img2="https://res.cloudinary.com/dz2df15nx/image/upload/v1742938298/71864527-295b-44c5-ad00-daf46187a05b.png"
-      img3="https://res.cloudinary.com/dz2df15nx/image/upload/v1742938288/703cb652-1e74-40ce-9af5-944037401687.png"
-    />
-    <Divider />
-    <RightCard
-      img="https://res.cloudinary.com/dz2df15nx/image/upload/v1742938298/71864527-295b-44c5-ad00-daf46187a05b.png"
-      blurText="Producto 1"
-    />
-    <LeftCard
-      img="https://res.cloudinary.com/dz2df15nx/image/upload/v1742938288/703cb652-1e74-40ce-9af5-944037401687.png"
-      blurText="Producto 2"
-    />
-    <Divider />
-    <video
-      src="https://res.cloudinary.com/dz2df15nx/video/upload/v1742938337/pmwss5s5te1dfpfjbksi.mp4"
-      class="object-cover max-h-[50vh] max-w-[90vh]"
-      autoplay
-      loop></video>
-    <h3
-      class="font-cormorantGaramond text-center justify-center mt-6 mx-16 text-2xl text-onix"
-    >
+  <Banner />
+  <div
+    class="flex text-center justify-center content-center z-10 bg-aura w-screen py-5"
+  >
+    <h3 class="text-onix text-2xl font-cormorantGaramond mx-10">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a tortor
-      quis justo tempus ultrices vel in turpis. Integer sed vehicula lacus.
+      quis justo tempus ultrices vel in turpis. Integer sed vehicula lacus. In
+      aliquet, tellus ut porta dapibus, ante augue molestie sapien, eu varius
+      lorem dui ut dui.
     </h3>
-    <Divider />
-    <ContactForm />
-  </main>
+  </div>
+  <ImgTransition
+    img1="https://res.cloudinary.com/dz2df15nx/image/upload/v1743213669/2556f91f-84e1-4d30-ab8c-0cc2a482ee13.png"
+    img2="https://res.cloudinary.com/dz2df15nx/image/upload/v1742938298/71864527-295b-44c5-ad00-daf46187a05b.png"
+    img3="https://res.cloudinary.com/dz2df15nx/image/upload/v1742938288/703cb652-1e74-40ce-9af5-944037401687.png"
+  />
+  <Divider />
+  <Cards />
+  <Divider />
+  <video
+    src="https://res.cloudinary.com/dz2df15nx/video/upload/v1742938337/pmwss5s5te1dfpfjbksi.mp4"
+    class="object-cover max-h-[50vh] max-w-[90vh]"
+    autoplay
+    loop></video>
+  <h3
+    class="font-cormorantGaramond text-center justify-center mt-6 mx-16 text-2xl text-onix"
+  >
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a tortor quis
+    justo tempus ultrices vel in turpis. Integer sed vehicula lacus.
+  </h3>
 </Layout>

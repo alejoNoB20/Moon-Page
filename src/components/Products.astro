@@ -1,0 +1,26 @@
+---
+import Divider from "./Divider.astro";
+const { products } = Astro.props;
+---
+
+<Divider />
+<section
+  class="grid grid-cols-2 md:grid-cols-4 m-8 gap-8 items-center content-center"
+>
+  {
+    products.map((product) => (
+      <div class="relative flex items-center justify-center text-center min-h-[35vh] w-[35vh]">
+        <div
+          class="absolute inset-0 bg-cover bg-center"
+          style={`background-image: url('${product.img}');`}
+        />
+        <div class="flex flex-col absolute z-10 items-center justify-center h-full w-full opacity-0 hover:opacity-90 transition-opacity duration-500 bg-aura hover:shadow-2xl hover:shadow-gris-oscuro object-cover max-w-[35vh] max-h-[35vh] rounded-2xl hover:animate-zoom-product">
+          <h3 class="font-poppins italic text-lg text-onix">{product.name}</h3>
+          <h4 class="font-poppins text-sm text-onix mx-5">
+            {product.description}
+          </h4>
+        </div>
+      </div>
+    ))
+  }
+</section>

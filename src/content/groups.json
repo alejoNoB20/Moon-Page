@@ -1,0 +1,285 @@
+{
+  "groups": [
+    {
+      "id": 0,
+      "name": "Hierbas",
+      "img": "https://res.cloudinary.com/dz2df15nx/image/upload/v1742938288/703cb652-1e74-40ce-9af5-944037401687.png",
+      "description": "Hierbas",
+      "products": [
+        {
+          "name": "Contrayerba",
+          "img": "https://res.cloudinary.com/dz2df15nx/image/upload/v1742938288/703cb652-1e74-40ce-9af5-944037401687.png",
+          "description": " Disuelve bloqueos."
+        },
+        {
+          "name": "Lavanda",
+          "img": "https://res.cloudinary.com/dz2df15nx/image/upload/v1742938288/703cb652-1e74-40ce-9af5-944037401687.png",
+          "description": "Induce serenidad."
+        },
+        {
+          "name": "Romero",
+          "img": "https://res.cloudinary.com/dz2df15nx/image/upload/v1742938288/703cb652-1e74-40ce-9af5-944037401687.png",
+          "description": "Favorece la concentración."
+        },
+        {
+          "name": "Ruda",
+          "img": "https://res.cloudinary.com/dz2df15nx/image/upload/v1742938288/703cb652-1e74-40ce-9af5-944037401687.png",
+          "description": "Neutraliza influencias negativas."
+        },
+        {
+          "name": "Salvia",
+          "img": "https://res.cloudinary.com/dz2df15nx/image/upload/v1742938288/703cb652-1e74-40ce-9af5-944037401687.png",
+          "description": "Limpia energías estancadas."
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Resinas",
+      "img": "https://res.cloudinary.com/dz2df15nx/image/upload/v1742938298/71864527-295b-44c5-ad00-daf46187a05b.png",
+      "description": "Resinas",
+      "products": [
+        {
+          "name": "Benjuí",
+          "img": "https://res.cloudinary.com/dz2df15nx/image/upload/v1742938288/703cb652-1e74-40ce-9af5-944037401687.png",
+          "description": " Fortalece la voluntad."
+        },
+        {
+          "name": "Copal",
+          "img": "https://res.cloudinary.com/dz2df15nx/image/upload/v1742938288/703cb652-1e74-40ce-9af5-944037401687.png",
+          "description": "Purifica y armoniza."
+        },
+        {
+          "name": "Incienso",
+          "img": "https://res.cloudinary.com/dz2df15nx/image/upload/v1742938288/703cb652-1e74-40ce-9af5-944037401687.png",
+          "description": "Revitaliza el ambiente."
+        },
+        {
+          "name": "Mirra",
+          "img": "https://res.cloudinary.com/dz2df15nx/image/upload/v1742938288/703cb652-1e74-40ce-9af5-944037401687.png",
+          "description": "Protege energéticamente."
+        },
+        {
+          "name": "Sándalo",
+          "img": "https://res.cloudinary.com/dz2df15nx/image/upload/v1742938288/703cb652-1e74-40ce-9af5-944037401687.png",
+          "description": "Promueve estados meditativos."
+        },
+        {
+          "name": "Yagra",
+          "img": "https://res.cloudinary.com/dz2df15nx/image/upload/v1742938288/703cb652-1e74-40ce-9af5-944037401687.png",
+          "description": "Atrae prosperidad."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Mixturas",
+      "img": "https://res.cloudinary.com/dz2df15nx/image/upload/v1742938298/71864527-295b-44c5-ad00-daf46187a05b.png",
+      "description": "Mixturas",
+      "products": [
+        {
+          "name": "Abundancia",
+          "img": "https://res.cloudinary.com/dz2df15nx/image/upload/v1742938288/703cb652-1e74-40ce-9af5-944037401687.png",
+          "description": "Atrae éxito y nuevas oportunidades:  Albahaca, Benjuí, Canela, Laurel."
+        },
+        {
+          "name": "Amor",
+          "img": "https://res.cloudinary.com/dz2df15nx/image/upload/v1742938288/703cb652-1e74-40ce-9af5-944037401687.png",
+          "description": " Fomenta la conexión emocional: Albahaca, Canela, Mirra, Rosa, Palo Santo."
+        },
+        {
+          "name": "Bienestar",
+          "img": "https://res.cloudinary.com/dz2df15nx/image/upload/v1742938288/703cb652-1e74-40ce-9af5-944037401687.png",
+          "description": "Relaja y equilibra: Contrayerba. Incienso, Lavanda, Menta, Ruda."
+        },
+        {
+          "name": "Purificación y Protección",
+          "img": "https://res.cloudinary.com/dz2df15nx/image/upload/v1742938288/703cb652-1e74-40ce-9af5-944037401687.png",
+          "description": "Limpia el espacio y restaura la armonía: Clavo, Mirra, Romero, Ruda, Salvia."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Áuricos",
+      "img": "https://res.cloudinary.com/dz2df15nx/image/upload/v1742938298/71864527-295b-44c5-ad00-daf46187a05b.png",
+      "description": "Áuricos",
+      "products": [
+        {
+          "name": "Amor",
+          "img": "https://res.cloudinary.com/dz2df15nx/image/upload/v1742938288/703cb652-1e74-40ce-9af5-944037401687.png",
+          "description": "Potencia el amor propio y cultiva vínculos saludables: Bergamota, Rosa, Pachulí."
+        },
+        {
+          "name": "Armonía",
+          "img": "https://res.cloudinary.com/dz2df15nx/image/upload/v1742938288/703cb652-1e74-40ce-9af5-944037401687.png",
+          "description": " Equilibra emociones y serena el espíritu: Limón, Geranio, Mirra."
+        },
+        {
+          "name": "Bienestar",
+          "img": "https://res.cloudinary.com/dz2df15nx/image/upload/v1742938288/703cb652-1e74-40ce-9af5-944037401687.png",
+          "description": "Contribuye a la conexión interna y a la armonía integral del Ser: Hierbabuena, Lavanda, Cedro."
+        },
+        {
+          "name": "Energía Creadora",
+          "img": "https://res.cloudinary.com/dz2df15nx/image/upload/v1742938288/703cb652-1e74-40ce-9af5-944037401687.png",
+          "description": "Despierta la motivación y canaliza el potencial creativo: Bergamota, Enebro, Incienso."
+        },
+        {
+          "name": "Intuición",
+          "img": "https://res.cloudinary.com/dz2df15nx/image/upload/v1742938288/703cb652-1e74-40ce-9af5-944037401687.png",
+          "description": "Refuerza la percepción y estimula el entendimiento intuitivo: Menta, Lima, Lavanda."
+        },
+        {
+          "name": "Meditación",
+          "img": "https://res.cloudinary.com/dz2df15nx/image/upload/v1742938288/703cb652-1e74-40ce-9af5-944037401687.png",
+          "description": "Facilita la introspección y otorga paz interior: Incienso, Mirra, Sándalo."
+        },
+        {
+          "name": "Protección",
+          "img": "https://res.cloudinary.com/dz2df15nx/image/upload/v1742938288/703cb652-1e74-40ce-9af5-944037401687.png",
+          "description": "Fortalece y resguarda el campo energético: Albahaca, Canela, Mirra."
+        },
+        {
+          "name": "Prosperidad",
+          "img": "https://res.cloudinary.com/dz2df15nx/image/upload/v1742938288/703cb652-1e74-40ce-9af5-944037401687.png",
+          "description": "Conecta con la abundancia y materializa proyectos: Naranja, Canela, Pachulí."
+        },
+        {
+          "name": "Purificación",
+          "img": "https://res.cloudinary.com/dz2df15nx/image/upload/v1742938288/703cb652-1e74-40ce-9af5-944037401687.png",
+          "description": "Transmuta energías densas y genera serenidad: Limón, Romero, Incienso."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Óleos",
+      "img": "https://res.cloudinary.com/dz2df15nx/image/upload/v1742938298/71864527-295b-44c5-ad00-daf46187a05b.png",
+      "description": "Óleos",
+      "products": [
+        {
+          "name": "Astros",
+          "img": "https://res.cloudinary.com/dz2df15nx/image/upload/v1742938288/703cb652-1e74-40ce-9af5-944037401687.png",
+          "description": "Luna: Reflexión: Limón, Melisa, Sándalo. Sol: Alegría: Naranja, Canela, Incienso."
+        },
+        {
+          "name": "Ciclo",
+          "img": "https://res.cloudinary.com/dz2df15nx/image/upload/v1742938288/703cb652-1e74-40ce-9af5-944037401687.png",
+          "description": "Matriz Lunar: Cardamomo, Lavanda, Salvia, Oleato de Manzanilla, Rosas."
+        },
+        {
+          "name": "Elementos",
+          "img": "https://res.cloudinary.com/dz2df15nx/image/upload/v1742938288/703cb652-1e74-40ce-9af5-944037401687.png",
+          "description": "Aire: Inspiración: Hinojo, Lavanda, Sándalo. Agua: Calma: Melisa, Ylang Ylang, Mirra. Fuego: Pasión: Petitgrain Romero, Jengibre. Tierra: Estabilidad: Ciprés, Pachulí, Vetiver."
+        },
+        {
+          "name": "Esenciales",
+          "img": "https://res.cloudinary.com/dz2df15nx/image/upload/v1742938288/703cb652-1e74-40ce-9af5-944037401687.png",
+          "description": "Abundancia: Manifestación: Albahaca, Menta, Pachulí. Amor: Unión: Romero, Ylang Ylang, Sándalo. Bienestar: Vitalidad: Eucalipto, Menta, Hinojo. Protección: Seguridad: Romero, Enebro, Sándalo. Purificación: Claridad: Limón, Salvia, Incienso."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Sahumerios",
+      "img": "https://res.cloudinary.com/dz2df15nx/image/upload/v1742938298/71864527-295b-44c5-ad00-daf46187a05b.png",
+      "description": "Sahumerios",
+      "products": [
+        {
+          "name": "Ganesha",
+          "img": "https://res.cloudinary.com/dz2df15nx/image/upload/v1742938288/703cb652-1e74-40ce-9af5-944037401687.png",
+          "description": "Apertura"
+        },
+        {
+          "name": "Incienso",
+          "img": "https://res.cloudinary.com/dz2df15nx/image/upload/v1742938288/703cb652-1e74-40ce-9af5-944037401687.png",
+          "description": "Espiritualidad"
+        },
+        {
+          "name": "Jazmín",
+          "img": "https://res.cloudinary.com/dz2df15nx/image/upload/v1742938288/703cb652-1e74-40ce-9af5-944037401687.png",
+          "description": "Atracción"
+        },
+        {
+          "name": "Kali",
+          "img": "https://res.cloudinary.com/dz2df15nx/image/upload/v1742938288/703cb652-1e74-40ce-9af5-944037401687.png",
+          "description": "Liberación"
+        },
+        {
+          "name": "Krishna",
+          "img": "https://res.cloudinary.com/dz2df15nx/image/upload/v1742938288/703cb652-1e74-40ce-9af5-944037401687.png",
+          "description": "Devoción"
+        },
+        {
+          "name": "Lavanda",
+          "img": "https://res.cloudinary.com/dz2df15nx/image/upload/v1742938288/703cb652-1e74-40ce-9af5-944037401687.png",
+          "description": "Tranquilidad"
+        },
+        {
+          "name": "Limón",
+          "img": "https://res.cloudinary.com/dz2df15nx/image/upload/v1742938288/703cb652-1e74-40ce-9af5-944037401687.png",
+          "description": "Limpieza"
+        },
+        {
+          "name": "Mirra",
+          "img": "https://res.cloudinary.com/dz2df15nx/image/upload/v1742938288/703cb652-1e74-40ce-9af5-944037401687.png",
+          "description": "Sanación"
+        },
+        {
+          "name": "Nag Champa",
+          "img": "https://res.cloudinary.com/dz2df15nx/image/upload/v1742938288/703cb652-1e74-40ce-9af5-944037401687.png",
+          "description": "Equilibrio"
+        },
+        {
+          "name": "Naranja",
+          "img": "https://res.cloudinary.com/dz2df15nx/image/upload/v1742938288/703cb652-1e74-40ce-9af5-944037401687.png",
+          "description": "Energía"
+        },
+        {
+          "name": "Nardo",
+          "img": "https://res.cloudinary.com/dz2df15nx/image/upload/v1742938288/703cb652-1e74-40ce-9af5-944037401687.png",
+          "description": "Pureza"
+        },
+        {
+          "name": "Palo Santo",
+          "img": "https://res.cloudinary.com/dz2df15nx/image/upload/v1742938288/703cb652-1e74-40ce-9af5-944037401687.png",
+          "description": "Renovación"
+        },
+        {
+          "name": "Rosas",
+          "img": "https://res.cloudinary.com/dz2df15nx/image/upload/v1742938288/703cb652-1e74-40ce-9af5-944037401687.png",
+          "description": "Amor"
+        },
+        {
+          "name": "Ruda",
+          "img": "https://res.cloudinary.com/dz2df15nx/image/upload/v1742938288/703cb652-1e74-40ce-9af5-944037401687.png",
+          "description": "Escudo"
+        },
+        {
+          "name": "Sándalo",
+          "img": "https://res.cloudinary.com/dz2df15nx/image/upload/v1742938288/703cb652-1e74-40ce-9af5-944037401687.png",
+          "description": "Contemplación"
+        },
+        {
+          "name": "Vainilla",
+          "img": "https://res.cloudinary.com/dz2df15nx/image/upload/v1742938288/703cb652-1e74-40ce-9af5-944037401687.png",
+          "description": "Calidez"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Complementos",
+      "img": "https://res.cloudinary.com/dz2df15nx/image/upload/v1742938298/71864527-295b-44c5-ad00-daf46187a05b.png",
+      "description": "Complementos",
+      "products": [
+        {
+          "name": "Hogar & Deco",
+          "img": "https://res.cloudinary.com/dz2df15nx/image/upload/v1742938288/703cb652-1e74-40ce-9af5-944037401687.png",
+          "description": "Hogar & Deco"
+        }
+      ]
+    }
+  ]
+}
